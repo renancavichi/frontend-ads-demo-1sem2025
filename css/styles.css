@@ -1,0 +1,50 @@
+body, html {
+    padding: 0;
+    margin: 0;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #333;
+    color: #FFF;
+}
+
+header h1{
+    margin: 0;
+    font-size: 20px;
+}
+
+#property-list{
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.property-card{
+    width: 200px;
+    background: #EEE;
+    border: 1px solid #CCC;
+    border-radius: 15px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    gap: 15px
+}
+
+.property-card .icon-property{
+    width: 50px;
+    background: #AAA;
+    border-radius: 15px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.property-card .texts h5{
+    font-size: 18px;
+    margin: 0 0 5px 0;
+}
